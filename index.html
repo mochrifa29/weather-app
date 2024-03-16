@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+<script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <h2>Weather</h2>
+        <p>Moch Rifa Maulana N</p>
+        <div class="search">
+            <input type="text" class="seacrh-bar" placeholder="Seacrh">
+            <button>cari</button>
+        </div>
+
+        <div class="weather loading">
+            <h2 class="city">Weather</h2>
+            <h1 class="temp">51°C</h1>
+            <div class="flex">
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icons">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">humidity : 60%</div>
+            <div class="wind">wind speed : 6.2 km/h</div>
+            <div class="timezone">Timezone : 23478 Gmt</div>
+        </div>
+    </div>
+</body>
+</html>
